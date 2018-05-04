@@ -3,8 +3,8 @@ stem = 'ls -m ';
 
 % Define the two directories where the data from the oscilloscope and 
 % LabView program are stored
-oscilloscope_dir = '/home/tyler/data/050318/scope';
-labview_dir = '/home/tyler/data/050318/LabView';
+oscilloscope_dir = '/home/tyler/data/050418/scope';
+labview_dir = '/home/tyler/data/050418/LabView';
 oscilloscope_arg = [stem oscilloscope_dir];
 labview_arg = [stem labview_dir];
 [status, oscilloscope_cmdout] = system(oscilloscope_arg);
@@ -27,7 +27,7 @@ voltages = [300, 320, 340, 360, 380, 400, 420, 440, 460, 480]';
 pp_voltages = zeros(length(voltages),1);
 rms_voltages = zeros(length(voltages),1);
 for i=1:len
-    
+    fprintf("iteration %d\n", i)
     % Calculate the average peak to peak voltage based on the oscilloscope
     % data
     oscilloscope_fname = strip(oscilloscope_flist(i));
@@ -51,10 +51,10 @@ for i=1:len
     % Grab the data  
     dat_x = csvread(oscilloscope_path, 0,3,[0,3,2499,3]);
     dat_y = csvread(oscilloscope_path, 0,4,[0,4,2499,4]);
-        
-    maxima = findpeaks(dat_y, 'MinPeakDistance', 60);
-    minima = -1 * findpeaks(-1 * dat_y, 'MinPeakDistance', 60);
-
+    
+    [maxima, maxidx] = findpeaks(dat_y, 'MinPeakDistance', 200);
+    [minima, minidx] = findpeaks(-1 * dat_y, 'MinPeakDistance', 200);
+    minima = minima * -1;
     pp_V = mean(maxima) - mean(minima);
     pp_voltages(i) = pp_V;
     
@@ -69,6 +69,6 @@ end
 % observed peak to peak voltage from the oscilloscope
 %disp(rms_voltages)
 %disp(pp_voltages)
-%scatter(rms_voltages, pp_voltages);
+scatter(rms_voltages, pp_voltages);
 
 %TODO: redo experiment :(
