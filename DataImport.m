@@ -1,3 +1,6 @@
+
+%% Import a bunch of data files at once according to their filenames.
+
 % Get file list and length
 stem = 'ls -m ';
 
@@ -18,9 +21,8 @@ for i=1:len
     % Calculate the average peak to peak voltage based on the oscilloscope
     % data
     fname = strip(flist(i));
-    path = char(fullfile(dir, fname));
-    eval([string(fname) '= importdata(' string(path) ')']);
+    s = genvarname(extractBefore(fname, '__.csv'));
+    path = (char(fullfile(dir, fname)));
+    data = importdata(path);
+    eval([s{1,1} '=data;']);
 end
-
-
-

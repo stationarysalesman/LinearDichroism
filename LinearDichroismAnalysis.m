@@ -1,6 +1,6 @@
 % Assign variables to analyze
-ref = ch2buffer450V;
-sample = ch2DiO250wash10min450V;
+ref = ch3_buffer;
+sample = ch3_DiO350;
 
 % Analyze the reference
 time = ref(1,:);
@@ -8,8 +8,13 @@ dc = ref(2,:);
 r = ref(3,:);
 theta = ref(4,:);
 freq = ref(5,:);
-avg_dc = mean(dc);
-avg_r = mean(r);
+diode = ref(6,:);
+
+% Note: we are dividing by the diode voltage to account for laser drift
+avg_diode = mean(diode);
+avg_dc = mean(dc) / avg_diode;
+avg_r = mean(r) / avg_diode;
+
 % Apply correction factor to go from rms voltage to peak-peak
 v_pp = 2.9405 * avg_r;
 I0_par = avg_dc + 0.5 * v_pp;
@@ -21,8 +26,11 @@ dc_sample = sample(2,:);
 r_sample = sample(3,:);
 theta_sample = sample(4,:);
 freq_sample = sample(5,:);
-avg_dc_sample = mean(dc_sample);
-avg_r_sample = mean(r_sample);
+diode_sample = sample(6,:);
+avg_diode_sample = mean(diode_sample);
+avg_dc_sample = mean(dc_sample) / avg_diode_sample;
+avg_r_sample = mean(r_sample) / avg_diode_sample;
+
 % Apply correction factor to go from rms voltage to peak-peak
 v_pp_sample = 2.9405 * avg_r_sample;
 Ipar = avg_dc_sample + 0.5 * v_pp_sample;
@@ -38,14 +46,19 @@ A_perp = -log10(Iperp/I0_perp);
 % which has its electric vector in the xy-plane, has its electric vector
 % oriented transverse to the plane of incidence (the xz-plane), and thus
 % A parallel = A transverse electric.
+%
+% Additional note: since we are dividing every voltage by the reference,
+% all numbers are pure and thus have no units, except the orientation.
+
 ratio = A_perp/A_par;
-fprintf("I0_par: %fV\n", I0_par);
-fprintf("I0_perp: %fV\n", I0_perp);
-fprintf("Ipar: %fV\n", Ipar);
-fprintf("Iperp: %fV\n", Iperp);
+fprintf("I0_par: %f\n", I0_par);
+fprintf("I0_perp: %f\n", I0_perp);
+fprintf("Ipar: %f\n", Ipar);
+fprintf("Iperp: %f\n", Iperp);
 fprintf("Apar: %f\n", A_par);
 fprintf("Aperp: %f\n", A_perp);
 fprintf("Dichroic ratio: %f\n", ratio);
+
 
 % Using the known angle of incidence, calculate the angle the transition 
 % moment subtends with the z-axis
