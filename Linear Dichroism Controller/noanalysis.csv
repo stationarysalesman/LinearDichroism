@@ -1,0 +1,9 @@
+,Reference,,,Sample,,,
+,Channel 1,Channel 2,Channel 3,Channel 1,Channel 2, Channel 3
+PMT Voltage (V),3.2000,3.2000,3.2000,3.2000,3.2000,3.2000
+Photodiode Voltage (V),1.4000,1.4000,1.4000,1.4000,1.4000,1.4000
+RMS Voltage (mV),5.3000,5.3000,5.3000,5.3000,5.3000,5.3000
+Theta (Degrees),8.1000,8.1000,8.1000,8.1000,8.1000,8.1000
+I parallel,10.0770,10.0770,10.0770,10.0770,10.0770,10.0770
+I perpendicular,-5.5056,-5.5056,-5.5056,-5.5056,-5.5056,-5.5056
+Dichroic Ratio,0.0000,0.0000,0.0000,NaN,NaN,NaN
