@@ -58,6 +58,85 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Front Panel Tyler" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{DF28AECD-B994-4DA2-B1B7-678E0AA927B0}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{CC6170D1-F5AE-48A5-A732-282DA71E4D35}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FFD257F3-C8FB-4772-8C35-F2EEA3F560D4}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Front Panel Tyler</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Front Panel Tyler</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{71913031-9B82-4205-AA6A-BEA60A4C0110}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Dichroism Controller.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Front Panel Tyler/Dichroism Controller.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Front Panel Tyler/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E94203A1-43DB-4DE2-81C0-A2EB7984AAE6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LD Reading.lvclass/Front Panel Tyler.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Front Panel Tyler</Property>
+				<Property Name="TgtF_internalName" Type="Str">Front Panel Tyler</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 </Property>
+				<Property Name="TgtF_productName" Type="Str">Front Panel Tyler</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F7B5B05F-6268-47DC-923E-F9738050D44B}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Dichroism Controller.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Front Panel Tyler2" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{6514C3CE-98D2-4BC0-BFCE-92B18CEB31A3}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D3E423F8-9C6C-4CD3-BF9D-7B6A81EB83DD}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{9076C56A-C1B4-401C-BE45-C03333F28095}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Front Panel Tyler2</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Front Panel Tyler2</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5F598808-7654-46F7-BB87-63B64EB0BAE1}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Dichroism Controller v1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Front Panel Tyler2/Dichroism Controller v1.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Front Panel Tyler2/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7DDB8155-2711-41E6-9E97-38807034560D}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LD Reading.lvclass/Front Panel Tyler.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Front Panel Tyler2</Property>
+				<Property Name="TgtF_internalName" Type="Str">Front Panel Tyler2</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 </Property>
+				<Property Name="TgtF_productName" Type="Str">Front Panel Tyler2</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D33629C3-E0D6-4F20-ABEC-EDE92431EE5E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Dichroism Controller v1.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

@@ -1,14 +1,14 @@
 % Assign variables to analyze
-ref = ch3_buffer;
-sample = ch3_DiO350;
+ref = DMPCDiO3R3;
+sample = DMPCDiO3S3;
 
 % Analyze the reference
 time = ref(1,:);
 dc = ref(2,:);
-r = ref(3,:);
-theta = ref(4,:);
-freq = ref(5,:);
-diode = ref(6,:);
+diode = ref(3,:);
+r = ref(4,:);
+theta = ref(5,:);
+freq = ref(6,:);
 
 % Note: we are dividing by the diode voltage to account for laser drift
 avg_diode = mean(diode);
@@ -18,15 +18,16 @@ avg_r = mean(r) / avg_diode;
 % Apply correction factor to go from rms voltage to peak-peak
 v_pp = 2.9405 * avg_r;
 I0_par = avg_dc + 0.5 * v_pp;
-I0_perp = avg_dc - 05 * v_pp;
+I0_perp = avg_dc - 0.5 * v_pp;
 
 % Analyze the sample
 time_sample = sample(1,:);
 dc_sample = sample(2,:);
-r_sample = sample(3,:);
-theta_sample = sample(4,:);
-freq_sample = sample(5,:);
-diode_sample = sample(6,:);
+diode_sample = sample(3,:);
+r_sample = sample(4,:);
+theta_sample = sample(5,:);
+freq_sample = sample(6,:);
+
 avg_diode_sample = mean(diode_sample);
 avg_dc_sample = mean(dc_sample) / avg_diode_sample;
 avg_r_sample = mean(r_sample) / avg_diode_sample;
@@ -34,7 +35,7 @@ avg_r_sample = mean(r_sample) / avg_diode_sample;
 % Apply correction factor to go from rms voltage to peak-peak
 v_pp_sample = 2.9405 * avg_r_sample;
 Ipar = avg_dc_sample + 0.5 * v_pp_sample;
-Iperp = avg_dc_sample - 05 * v_pp_sample;
+Iperp = avg_dc_sample - 0.5 * v_pp_sample;
 
 A_par = -log10(Ipar/I0_par);
 A_perp = -log10(Iperp/I0_perp);
