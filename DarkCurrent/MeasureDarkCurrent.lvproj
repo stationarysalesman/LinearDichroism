@@ -71,7 +71,12 @@
 			</Item>
 			<Item Name="Average Data.ctl" Type="VI" URL="../../Linear Dichroism Controller/Average Data.ctl"/>
 			<Item Name="Experimental Parameters.ctl" Type="VI" URL="../../Linear Dichroism Controller/Experimental Parameters.ctl"/>
+			<Item Name="labjackud.dll" Type="Document" URL="labjackud.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="LD Reading.lvclass" Type="LVClass" URL="../../Linear Dichroism Controller/LD Reading.lvclass"/>
+			<Item Name="LJUD_eDAC.vi" Type="VI" URL="../../Linear Dichroism Controller/LJUD_eDAC.vi"/>
+			<Item Name="LJUD_OpenLabJack.vi" Type="VI" URL="../../Linear Dichroism Controller/LJUD_OpenLabJack.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="MCTypedef.ctl" Type="VI" URL="../../Linear Dichroism Controller/MCTypedef.ctl"/>

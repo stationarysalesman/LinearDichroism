@@ -74,12 +74,9 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="MCTypedef.ctl" Type="VI" URL="../MCTypedef.ctl"/>
-			<Item Name="MeasureDarkCurrent.vi" Type="VI" URL="../../DarkCurrent/MeasureDarkCurrent.vi"/>
-			<Item Name="MeasureDetectorVoltage.vi" Type="VI" URL="../../DarkCurrent/MeasureDetectorVoltage.vi"/>
 			<Item Name="Realtime Output.ctl" Type="VI" URL="../Realtime Output.ctl"/>
 			<Item Name="Reference Channel Intensities.ctl" Type="VI" URL="../Reference Channel Intensities.ctl"/>
 			<Item Name="Sample Channel Intensities.ctl" Type="VI" URL="../Sample Channel Intensities.ctl"/>
-			<Item Name="SendRS232Command.vi" Type="VI" URL="../../DarkCurrent/SendRS232Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Front Panel Tyler SYNCHRONIZED" Type="EXE">
