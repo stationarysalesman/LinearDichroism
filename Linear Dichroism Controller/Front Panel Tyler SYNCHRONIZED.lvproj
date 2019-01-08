@@ -63,14 +63,23 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
+			<Item Name="AmplifierSettings.ctl" Type="VI" URL="../AmplifierSettings.ctl"/>
 			<Item Name="Average Data.ctl" Type="VI" URL="../Average Data.ctl"/>
 			<Item Name="Experimental Parameters.ctl" Type="VI" URL="../Experimental Parameters.ctl"/>
+			<Item Name="labjackud.dll" Type="Document" URL="labjackud.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="LJUD_eDAC.vi" Type="VI" URL="../LJUD_eDAC.vi"/>
+			<Item Name="LJUD_OpenLabJack.vi" Type="VI" URL="../LJUD_OpenLabJack.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="MCTypedef.ctl" Type="VI" URL="../MCTypedef.ctl"/>
+			<Item Name="MeasureDarkCurrent.vi" Type="VI" URL="../../DarkCurrent/MeasureDarkCurrent.vi"/>
+			<Item Name="MeasureDetectorVoltage.vi" Type="VI" URL="../../DarkCurrent/MeasureDetectorVoltage.vi"/>
 			<Item Name="Realtime Output.ctl" Type="VI" URL="../Realtime Output.ctl"/>
 			<Item Name="Reference Channel Intensities.ctl" Type="VI" URL="../Reference Channel Intensities.ctl"/>
 			<Item Name="Sample Channel Intensities.ctl" Type="VI" URL="../Sample Channel Intensities.ctl"/>
+			<Item Name="SendRS232Command.vi" Type="VI" URL="../../DarkCurrent/SendRS232Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Front Panel Tyler SYNCHRONIZED" Type="EXE">
