@@ -123,6 +123,237 @@
 				<Property Name="TgtF_targetfileName" Type="Str">LD-Controller-Synchronized.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="FrontPanelSingleChannel" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{07E74BD3-E962-49D5-9C74-CA1420555A52}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{75086AA4-F86D-42D5-8877-081868FE455E}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{B46AE234-B1F3-403A-8D91-21EF57ADFBF5}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FrontPanelSingleChannel</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9CCB59FB-3483-4341-BCD8-EC586616ECC7}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">SingleChannelLDController.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel/SingleChannelLDController.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9DEFEEEC-326C-4261-971E-1BF12E68AA02}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LD Reading.lvclass/FrontPanelSingleChannel.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Illinois at Urbana-Champaign</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FrontPanelSingleChannel</Property>
+				<Property Name="TgtF_internalName" Type="Str">FrontPanelSingleChannel</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 University of Illinois at Urbana-Champaign</Property>
+				<Property Name="TgtF_productName" Type="Str">FrontPanelSingleChannel</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{1FF13724-CED1-4E73-9553-951584220B9A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SingleChannelLDController.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="FrontPanelSingleChannel2" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{D2814E06-6719-4641-B62A-233910D7132C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{726070EB-A622-4601-85B7-79573E2DD629}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{003DB15E-71BB-4A1C-AF97-5FCB2B951591}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FrontPanelSingleChannel2</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel2</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6264AACF-81AD-494D-ADF0-7B896B829F50}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">SingleChannelLDController.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel2/SingleChannelLDController.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel2/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C821FD2A-8F44-49DF-9920-5ED8609602FC}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LD Reading.lvclass/FrontPanelSingleChannel.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Illinois at Urbana-Champaign</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FrontPanelSingleChannel2</Property>
+				<Property Name="TgtF_internalName" Type="Str">FrontPanelSingleChannel2</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 University of Illinois at Urbana-Champaign</Property>
+				<Property Name="TgtF_productName" Type="Str">FrontPanelSingleChannel2</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{0E144F70-09D9-4578-8C5C-BB21EE56A3F0}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SingleChannelLDController.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="FrontPanelSingleChannel3" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{EC40C425-DAD8-4F11-AE09-105912CBDF05}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{A4524A5B-88B4-4504-90D0-6F761CF2FECC}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{47B54EE3-26DA-4011-A18F-781E2DFCF422}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FrontPanelSingleChannel3</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel3</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{6CAA43BD-D14F-420E-A50D-9EAA406D890D}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel3/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel3/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DDDC4036-DC91-4EE1-BDC4-797E0AE8191F}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LD Reading.lvclass/FrontPanelSingleChannel.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Illinois at Urbana-Champaign</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FrontPanelSingleChannel3</Property>
+				<Property Name="TgtF_internalName" Type="Str">FrontPanelSingleChannel3</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 University of Illinois at Urbana-Champaign</Property>
+				<Property Name="TgtF_productName" Type="Str">FrontPanelSingleChannel3</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{9A0944F0-1C62-4B3D-9739-A96787D5E9E8}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="FrontPanelSingleChannel4" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{DC5EBB8F-4FCF-4E4D-9900-E549D11CF155}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{1E7FF75B-D176-4731-80D9-D238337DCDAF}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{70F63164-9AE6-4278-AD51-639EFCE13F2E}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FrontPanelSingleChannel4</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel4</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{5B3BAD69-A44E-4FB9-8009-3F762C8D2434}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel4/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel4/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{40F9DD59-69EE-4FE6-B873-57CCB747C58E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LD Reading.lvclass/FrontPanelSingleChannel.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/MeasureDarkCurrent.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/MeasureDetectorVoltage.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/SendRS232Command.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/AdjustAmplifier.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Illinois at Urbana-Champaign</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FrontPanelSingleChannel4</Property>
+				<Property Name="TgtF_internalName" Type="Str">FrontPanelSingleChannel4</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 University of Illinois at Urbana-Champaign</Property>
+				<Property Name="TgtF_productName" Type="Str">FrontPanelSingleChannel4</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{48F860D7-F1A6-4735-A6F7-4A0DFB30F467}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="FrontPanelSingleChannel5" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{432117F2-1CA9-4004-86DD-57B26D7FE3C7}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{A0527F09-F20E-44F6-8295-DD47B5862B1B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7C69572A-CF68-46DA-9F0B-47246E034ACB}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">FrontPanelSingleChannel5</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel5</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E2FB9927-5E6E-4571-A39A-2695E498D921}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel5/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/FrontPanelSingleChannel5/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{40F9DD59-69EE-4FE6-B873-57CCB747C58E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LD Reading.lvclass/FrontPanelSingleChannel.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/SendRS232Command.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/AdjustAmplifier.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/MeasureDarkCurrent.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/MeasureDetectorVoltage.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="TgtF_companyName" Type="Str">University of Illinois at Urbana-Champaign</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">FrontPanelSingleChannel5</Property>
+				<Property Name="TgtF_internalName" Type="Str">FrontPanelSingleChannel5</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 University of Illinois at Urbana-Champaign</Property>
+				<Property Name="TgtF_productName" Type="Str">FrontPanelSingleChannel5</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{6AAFFCA6-5975-4DD0-B1CC-988D599D23BA}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
